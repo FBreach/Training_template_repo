@@ -11,6 +11,8 @@ filename = sys.argv[1]
 
 climate_data = open(filename, 'r')
 
+# TODO(smangham): Add call to process rainfall
+
 for line in climate_data:
     data = line.split(',')
 
